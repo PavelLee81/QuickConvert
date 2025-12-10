@@ -9,7 +9,7 @@ def main(page: ft.Page):
     # --- НАСТРОЙКИ ИКОНКИ (ДЛЯ КОРНЕВОЙ ПАПКИ) ---
     # Точка означает "текущая папка" (где лежит main.py)
     page.assets_dir = "assets" 
-    page.window_icon = "app_icon.png"
+    page.window_icon = "icon.png"
     # ---------------------------------------------
 
     # --- 1. ШРИФТЫ ---
