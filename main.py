@@ -8,7 +8,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 def main(page: ft.Page):
     # --- НАСТРОЙКИ ИКОНКИ (ДЛЯ КОРНЕВОЙ ПАПКИ) ---
     # Точка означает "текущая папка" (где лежит main.py)
-    page.assets_dir = "assets" 
+    page.assets_dir = "." 
     page.window_icon = "app_icon.png"
     # ---------------------------------------------
 
